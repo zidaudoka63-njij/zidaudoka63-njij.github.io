@@ -16,8 +16,8 @@ index.html
     }
 
     header {
-      padding: 40px 20px;
       background-color: #ffd6e8;
+      padding: 40px 20px;
     }
 
     h1 {
@@ -32,109 +32,83 @@ index.html
     }
 
     .main-image {
-      width: 100%;
+      width: 90%;
       max-width: 400px;
       border-radius: 15px;
       margin: 25px auto;
       display: block;
     }
 
-    .services {
-      padding: 30px 20px;
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin: 20px;
     }
 
-    .service-box {
-      background: white;
-      margin: 15px auto;
-      padding: 20px;
-      max-width: 400px;
+    .gallery img {
+      width: 150px;
       border-radius: 12px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
 
-    .cta {
-      margin: 40px 0;
-    }
-
-    .cta a {
-      background-color: #ff69b4;
-      color: white;
+    .whatsapp {
+      display: inline-block;
+      margin: 30px auto;
       padding: 15px 25px;
-      border-radius: 30px;
+      background-color: #25D366;
+      color: white;
       text-decoration: none;
       font-size: 1.1em;
+      border-radius: 30px;
+      font-weight: bold;
     }
 
     footer {
+      margin-top: 40px;
       padding: 20px;
-      background: #ffd6e8;
       font-size: 0.9em;
+      color: #777;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- HEADER -->
   <header>
     <h1>Glow Beauty Studio</h1>
-    <p>Enhancing your natural beauty with love & care ✨</p>
+    <p>Beauty • Confidence • Self-Care</p>
   </header>
 
   <!-- MAIN IMAGE -->
   <img 
-    src="images/dear-keauties-visit-us.jpg" 
-    alt="Glow Beauty Studio" 
+    src="images/dear-keauties-visit-us.jpg"
+    alt="Glow Beauty Studio"
     class="main-image"
   >
 
-  <!-- SECOND IMAGE (OPTIONAL) -->
-  <img 
-    src="images/images.jpeg" 
-    alt="Beauty Services" 
-    class="main-image"
-  >
+  <p>
+    We help you feel confident, beautiful, and glowing.
+    Book your appointment today 💖
+  </p>
 
-  <!-- SERVICES -->
-  <section class="services">
-    <h2>Our Services</h2>
-
-    <div class="service-box">
-      <h3>Makeup</h3>
-      <p>Soft glam, full glam, bridal & events.</p>
-    </div>
-
-    <div class="service-box">
-      <h3>Lashes</h3>
-      <p>Classic, hybrid & volume lash sets.</p>
-    </div>
-
-    <div class="service-box">
-      <h3>Skin Care</h3>
-      <p>Facials, glow treatments & skin prep.</p>
-    </div>
-  </section>
-
-  <!-- CALL TO ACTION -->
-  <div class="cta">
-    <a href="https://wa.me/5511988207321" target="_blank">
-      Book on WhatsApp
-    </a>
+  <!-- IMAGE GALLERY -->
+  <div class="gallery">
+    <img src="images/images.jpeg" alt="Beauty work">
   </div>
 
-  <!-- FOOTER -->
+  <!-- WHATSAPP BUTTON -->
+  <a 
+    class="whatsapp"
+    href="https://wa.me/5511988207231"
+    target="_blank"
+  >
+    💬 Message us on WhatsApp
+  </a>
+
   <footer>
-    © 2026 Glow Beauty Studio · All rights reserved
+    © 2026 Glow Beauty Studio
   </footer>
 
 </body>
 </html>
-
-      
-
-
-    
-  
-   
-
- 
